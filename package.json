@@ -1,0 +1,27 @@
+{
+  "name": "311131-typoteka-3",
+  "version": "1.0.0",
+  "description": "Типотека",
+  "main": "./src/service/service.js",
+  "scripts": {
+    "start": "node ./src/service/service.js",
+    "test": "npm run eslint",
+    "eslint": "eslint --ext .js src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lissergey/311131-typoteka-3.git"
+  },
+  "author": "Sergey Lisakonov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lissergey/311131-typoteka-3/issues"
+  },
+  "homepage": "https://github.com/lissergey/311131-typoteka-3#readme",
+  "dependencies": {
+    "eslint": "^6.8.0"
+  },
+  "devDependencies": {
+    "eslint-config-htmlacademy": "0.5.2"
+  }
+}
